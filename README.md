@@ -61,13 +61,13 @@ developing your own process.
 ## Your Notes Here
 
 - Add a new toy when the toy form is submitted
-
   - How I debugged:
+  500 error: I knew it was in the toys_controller, first checked the first line, then individual segments of code, and found in the create method there was a typo Toys instead of Toy.
 
 - Update the number of likes for a toy
-
   - How I debugged:
+  Seems to be working but page needs to be refreshed to see.
 
 - Donate a toy to Goodwill (and delete it from our database)
-
   - How I debugged:
+There was no route  so I added :destroy in the routes
